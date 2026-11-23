@@ -1,0 +1,41 @@
+Scenario_text,Condition,Frame
+"Genetic testing before pregnancy shows a 75% chance that your child will be born completely healthy and free of a specific inherited disorder. On a scale of 1-7, how likely are you to proceed with conception?",Positive,Carrier Screening
+"Genetic testing before pregnancy shows a 25% chance that your child will inherit a specific genetic disorder. On a scale of 1-7, how likely are you to proceed with conception?",Negative,Carrier Screening
+"A routine prenatal test accurately confirms healthy chromosomes in 98% of pregnancies. On a scale of 1-7, how likely are you to opt for this test?",Positive,Prenatal Test
+"A routine prenatal test yields unclear or abnormal chromosome results in 2% of pregnancies. On a scale of 1-7, how likely are you to opt for this test?",Negative,Prenatal Test
+"A new experimental lung cancer drug successfully stops tumor growth in 60% of patients. On a scale of 1-7, how confident are you in this therapy?",Positive,Lung Cancer Drug
+"A new experimental lung cancer drug fails to stop tumor growth in 40% of patients. On a scale of 1-7, how confident are you in this therapy?",Negative,Lung Cancer Drug
+"A new probiotic treatment for severe bowel inflammation successfully protects the stomach lining in 80% of patients. On a scale of 1-7, how likely are you to recommend this intervention?",Positive,Bowel Treatment
+"A new probiotic treatment for severe bowel inflammation causes damage to the stomach lining in 20% of patients. On a scale of 1-7, how likely are you to recommend this intervention?",Negative,Bowel Treatment
+"Advanced genetic testing for childhood developmental delays provides a clear medical diagnosis in 40% of cases. On a scale of 1-7, how likely are you to authorize this testing?",Positive,Childhood Genetics
+"Advanced genetic testing for childhood developmental delays leaves 60% of cases without a clear medical diagnosis. On a scale of 1-7, how likely are you to authorize this testing?",Negative,Childhood Genetics
+"People who inherit this specific gene mutation have a 20% chance of staying completely healthy throughout their lives. On a scale of 1-7, how likely are you to get tested for this gene?",Positive,Gene Mutation
+"People who inherit this specific gene mutation have an 80% chance of developing illness during their lives. On a scale of 1-7, how likely are you to get tested for this gene?",Negative,Gene Mutation
+"The standard chemotherapy for colon cancer provides a 70% chance of being completely cancer-free after five years. On a scale of 1-7, how likely are you to consent to this treatment?",Positive,Chemotherapy
+"The standard chemotherapy for colon cancer carries a 30% chance of the cancer returning within five years. On a scale of 1-7, how likely are you to consent to this treatment?",Negative,Chemotherapy
+"A specific medical diet designed to improve gut health successfully reduces severe depression symptoms in 65% of patients. On a scale of 1-7, how likely are you to adopt this diet?",Positive,Depression Diet
+"A specific medical diet designed to improve gut health shows no improvement in severe depression symptoms for 35% of patients. On a scale of 1-7, how likely are you to adopt this diet?",Negative,Depression Diet
+"Based on your DNA, a new medication will effectively treat your condition with a 90% chance of having zero side effects. On a scale of 1-7, how likely are you to take this prescription?",Positive,DNA Medication
+"Based on your DNA, a new medication to treat your condition has a 10% chance of causing severe side effects. On a scale of 1-7, how likely are you to take this prescription?",Negative,DNA Medication
+"Follow-up research shows that 90% of 'uncertain' genetic test results turn out to be completely harmless. On a scale of 1-7, how likely are you to request further testing?",Positive,Uncertain Result
+"Follow-up research shows that 10% of 'uncertain' genetic test results turn out to be dangerous. On a scale of 1-7, how likely are you to request further testing?",Negative,Uncertain Result
+"A standard heart surgery has a 95% survival rate during the operation. On a scale of 1-7, how likely are you to consent to this surgery?",Positive,Heart Surgery
+"A standard heart surgery has a 5% risk of death during the operation. On a scale of 1-7, how likely are you to consent to this surgery?",Negative,Heart Surgery
+"A DNA test shows you have chance of maintaining normal, healthy brain function as you age with 80% accuracy. On a scale of 1-7, how likely are you to take this test?",Positive,Brain Aging
+"A DNA test shows chance of developing severe memory loss as you age accurately in 20% of the cases. On a scale of 1-7, how likely are you to take this test?",Negative,Brain Aging
+"A new vaccine for a seasonal virus successfully protects 85% of people from getting sick. On a scale of 1-7, how likely are you to get this vaccine?",Positive,Viral Vaccine
+"A new vaccine for a seasonal virus fails to protect 15% of people from getting sick. On a scale of 1-7, how likely are you to get this vaccine?",Negative,Viral Vaccine
+"A laser eye surgery has a 99% success rate for restoring perfect vision without any lasting issues. On a scale of 1-7, how likely are you to undergo this procedure?",Positive,Eye Surgery
+"A laser eye surgery carries a 1% risk of causing permanent vision damage. On a scale of 1-7, how likely are you to undergo this procedure?",Negative,Eye Surgery
+"A donor kidney is a good match, giving the transplant a 90% chance of being accepted by your body. On a scale of 1-7, how likely are you to proceed with the transplant?",Positive,Organ Transplant
+"A donor kidney is a good match, but there is still a 10% chance your body will reject it. On a scale of 1-7, how likely are you to proceed with the transplant?",Negative,Organ Transplant
+"A routine breast cancer screening accurately confirms that a patient is completely cancer-free 90% of the time. On a scale of 1-7, how likely are you to get this screening?",Positive,Cancer Screening
+"A routine breast cancer screening gives a false alarm, suggesting cancer when the patient is actually healthy, 10% of the time. On a scale of 1-7, how likely are you to get this screening?",Negative,Cancer Screening
+"An advanced fertility treatment results in a successful, healthy pregnancy in 40% of attempts. On a scale of 1-7, how likely are you to try this treatment?",Positive,Fertility Treatment
+"An advanced fertility treatment fails to result in a pregnancy in 60% of attempts. On a scale of 1-7, how likely are you to try this treatment?",Negative,Fertility Treatment
+"A new type of artificial knee surgery allows patients to walk completely pain-free in 85% of cases. On a scale of 1-7, how likely are you to choose this surgery?",Positive,Knee Surgery
+"A new type of artificial knee surgery leaves patients with lasting pain in 15% of cases. On a scale of 1-7, how likely are you to choose this surgery?",Negative,Knee Surgery
+"A daily medication effectively controls asthma, keeping breathing perfectly normal on 90% of days. On a scale of 1-7, how likely are you to use this medication?",Positive,Asthma Meds
+"A daily medication fails to control asthma, resulting in breathing difficulties on 10% of days. On a scale of 1-7, how likely are you to use this medication?",Negative,Asthma Meds
+"A new blood pressure pill is generally safe and leaves 95% of patients completely free from severe fatigue. On a scale of 1-7, how likely are you to take this pill?",Positive,Blood Pressure
+"A new blood pressure pill causes severe, daily fatigue as a side effect in 5% of patients. On a scale of 1-7, how likely are you to take this pill?",Negative,Blood Pressure

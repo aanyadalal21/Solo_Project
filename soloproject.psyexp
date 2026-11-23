@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2026.2.3">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="'data/' + expInfo['participant'] + '_' + expName + '_' + expInfo['date']" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="True" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="soloproject" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="['MIDDLE_BUTTON']" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="fixation" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.15)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Scenario_text" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="slider" plugin="None">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Noto Sans" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="1" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="&quot;Very Unlikely&quot;, &quot;Neutral&quot;, &quot;Very Likely&quot;" valType="list" updates="constant" name="labels"/>
+        <Param val="0.01" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.25)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1.0, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="[]" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="slider" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4, 5, 6, 7)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </SliderComponent>
+    </Routine>
+    <Routine name="instructions">
+      <RoutineSettingsComponent name="instructions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instructions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instr_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instr_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome to the experiment.&amp;#10;&amp;#10;You will read 40 short medical scenarios. After each scenario, use the mouse to click a rating from 1 (Very Unlikely) to 7 (Very Likely) on the scale below.&amp;#10;&amp;#10;Please read each scenario carefully and respond naturally without taking breaks mid-trial.&amp;#10;&amp;#10;Press SPACE to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="instr_key" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="instr_key" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="debrief">
+      <RoutineSettingsComponent name="debrief" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="debrief" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="debrief_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="debrief_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for participating!&amp;#10;&amp;#10;This study investigates the Framing Effect in medical decision-making. You were presented with mathematically identical medical scenarios framed either positively (e.g., survival/success rates) or negatively (e.g., risk/failure rates) to see how wording affects risk perception and decision time.&amp;#10;&amp;#10;Press SPACE to finish and save your data." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="debrief_key" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="debrief_key" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('Scenario_text', 'Genetic testing before pregnancy shows a 75% chance that your child will be born completely healthy and free of a specific inherited disorder. On a scale of 1-7, how likely are you to proceed with conception?'), ('Condition', 'Positive'), ('Frame', 'Carrier Screening')]), OrderedDict([('Scenario_text', 'Genetic testing before pregnancy shows a 25% chance that your child will inherit a specific genetic disorder. On a scale of 1-7, how likely are you to proceed with conception?'), ('Condition', 'Negative'), ('Frame', 'Carrier Screening')]), OrderedDict([('Scenario_text', 'A routine prenatal test accurately confirms healthy chromosomes in 98% of pregnancies. On a scale of 1-7, how likely are you to opt for this test?'), ('Condition', 'Positive'), ('Frame', 'Prenatal Test')]), OrderedDict([('Scenario_text', 'A routine prenatal test yields unclear or abnormal chromosome results in 2% of pregnancies. On a scale of 1-7, how likely are you to opt for this test?'), ('Condition', 'Negative'), ('Frame', 'Prenatal Test')]), OrderedDict([('Scenario_text', 'A new experimental lung cancer drug successfully stops tumor growth in 60% of patients. On a scale of 1-7, how confident are you in this therapy?'), ('Condition', 'Positive'), ('Frame', 'Lung Cancer Drug')]), OrderedDict([('Scenario_text', 'A new experimental lung cancer drug fails to stop tumor growth in 40% of patients. On a scale of 1-7, how confident are you in this therapy?'), ('Condition', 'Negative'), ('Frame', 'Lung Cancer Drug')]), OrderedDict([('Scenario_text', 'A new probiotic treatment for severe bowel inflammation successfully protects the stomach lining in 80% of patients. On a scale of 1-7, how likely are you to recommend this intervention?'), ('Condition', 'Positive'), ('Frame', 'Bowel Treatment')]), OrderedDict([('Scenario_text', 'A new probiotic treatment for severe bowel inflammation causes damage to the stomach lining in 20% of patients. On a scale of 1-7, how likely are you to recommend this intervention?'), ('Condition', 'Negative'), ('Frame', 'Bowel Treatment')]), OrderedDict([('Scenario_text', 'Advanced genetic testing for childhood developmental delays provides a clear medical diagnosis in 40% of cases. On a scale of 1-7, how likely are you to authorize this testing?'), ('Condition', 'Positive'), ('Frame', 'Childhood Genetics')]), OrderedDict([('Scenario_text', 'Advanced genetic testing for childhood developmental delays leaves 60% of cases without a clear medical diagnosis. On a scale of 1-7, how likely are you to authorize this testing?'), ('Condition', 'Negative'), ('Frame', 'Childhood Genetics')]), OrderedDict([('Scenario_text', 'People who inherit this specific gene mutation have a 20% chance of staying completely healthy throughout their lives. On a scale of 1-7, how likely are you to get tested for this gene?'), ('Condition', 'Positive'), ('Frame', 'Gene Mutation')]), OrderedDict([('Scenario_text', 'People who inherit this specific gene mutation have an 80% chance of developing illness during their lives. On a scale of 1-7, how likely are you to get tested for this gene?'), ('Condition', 'Negative'), ('Frame', 'Gene Mutation')]), OrderedDict([('Scenario_text', 'The standard chemotherapy for colon cancer provides a 70% chance of being completely cancer-free after five years. On a scale of 1-7, how likely are you to consent to this treatment?'), ('Condition', 'Positive'), ('Frame', 'Chemotherapy')]), OrderedDict([('Scenario_text', 'The standard chemotherapy for colon cancer carries a 30% chance of the cancer returning within five years. On a scale of 1-7, how likely are you to consent to this treatment?'), ('Condition', 'Negative'), ('Frame', 'Chemotherapy')]), OrderedDict([('Scenario_text', 'A specific medical diet designed to improve gut health successfully reduces severe depression symptoms in 65% of patients. On a scale of 1-7, how likely are you to adopt this diet?'), ('Condition', 'Positive'), ('Frame', 'Depression Diet')]), OrderedDict([('Scenario_text', 'A specific medical diet designed to improve gut health shows no improvement in severe depression symptoms for 35% of patients. On a scale of 1-7, how likely are you to adopt this diet?'), ('Condition', 'Negative'), ('Frame', 'Depression Diet')]), OrderedDict([('Scenario_text', 'Based on your DNA, a new medication will effectively treat your condition with a 90% chance of having zero side effects. On a scale of 1-7, how likely are you to take this prescription?'), ('Condition', 'Positive'), ('Frame', 'DNA Medication')]), OrderedDict([('Scenario_text', 'Based on your DNA, a new medication to treat your condition has a 10% chance of causing severe side effects. On a scale of 1-7, how likely are you to take this prescription?'), ('Condition', 'Negative'), ('Frame', 'DNA Medication')]), OrderedDict([('Scenario_text', &quot;Follow-up research shows that 90% of 'uncertain' genetic test results turn out to be completely harmless. On a scale of 1-7, how likely are you to request further testing?&quot;), ('Condition', 'Positive'), ('Frame', 'Uncertain Result')]), OrderedDict([('Scenario_text', &quot;Follow-up research shows that 10% of 'uncertain' genetic test results turn out to be dangerous. On a scale of 1-7, how likely are you to request further testing?&quot;), ('Condition', 'Negative'), ('Frame', 'Uncertain Result')]), OrderedDict([('Scenario_text', 'A standard heart surgery has a 95% survival rate during the operation. On a scale of 1-7, how likely are you to consent to this surgery?'), ('Condition', 'Positive'), ('Frame', 'Heart Surgery')]), OrderedDict([('Scenario_text', 'A standard heart surgery has a 5% risk of death during the operation. On a scale of 1-7, how likely are you to consent to this surgery?'), ('Condition', 'Negative'), ('Frame', 'Heart Surgery')]), OrderedDict([('Scenario_text', 'A DNA test shows you have chance of maintaining normal, healthy brain function as you age with 80% accuracy. On a scale of 1-7, how likely are you to take this test?'), ('Condition', 'Positive'), ('Frame', 'Brain Aging')]), OrderedDict([('Scenario_text', 'A DNA test shows chance of developing severe memory loss as you age accurately in 20% of the cases. On a scale of 1-7, how likely are you to take this test?'), ('Condition', 'Negative'), ('Frame', 'Brain Aging')]), OrderedDict([('Scenario_text', 'A new vaccine for a seasonal virus successfully protects 85% of people from getting sick. On a scale of 1-7, how likely are you to get this vaccine?'), ('Condition', 'Positive'), ('Frame', 'Viral Vaccine')]), OrderedDict([('Scenario_text', 'A new vaccine for a seasonal virus fails to protect 15% of people from getting sick. On a scale of 1-7, how likely are you to get this vaccine?'), ('Condition', 'Negative'), ('Frame', 'Viral Vaccine')]), OrderedDict([('Scenario_text', 'A laser eye surgery has a 99% success rate for restoring perfect vision without any lasting issues. On a scale of 1-7, how likely are you to undergo this procedure?'), ('Condition', 'Positive'), ('Frame', 'Eye Surgery')]), OrderedDict([('Scenario_text', 'A laser eye surgery carries a 1% risk of causing permanent vision damage. On a scale of 1-7, how likely are you to undergo this procedure?'), ('Condition', 'Negative'), ('Frame', 'Eye Surgery')]), OrderedDict([('Scenario_text', 'A donor kidney is a good match, giving the transplant a 90% chance of being accepted by your body. On a scale of 1-7, how likely are you to proceed with the transplant?'), ('Condition', 'Positive'), ('Frame', 'Organ Transplant')]), OrderedDict([('Scenario_text', 'A donor kidney is a good match, but there is still a 10% chance your body will reject it. On a scale of 1-7, how likely are you to proceed with the transplant?'), ('Condition', 'Negative'), ('Frame', 'Organ Transplant')]), OrderedDict([('Scenario_text', 'A routine breast cancer screening accurately confirms that a patient is completely cancer-free 90% of the time. On a scale of 1-7, how likely are you to get this screening?'), ('Condition', 'Positive'), ('Frame', 'Cancer Screening')]), OrderedDict([('Scenario_text', 'A routine breast cancer screening gives a false alarm, suggesting cancer when the patient is actually healthy, 10% of the time. On a scale of 1-7, how likely are you to get this screening?'), ('Condition', 'Negative'), ('Frame', 'Cancer Screening')]), OrderedDict([('Scenario_text', 'An advanced fertility treatment results in a successful, healthy pregnancy in 40% of attempts. On a scale of 1-7, how likely are you to try this treatment?'), ('Condition', 'Positive'), ('Frame', 'Fertility Treatment')]), OrderedDict([('Scenario_text', 'An advanced fertility treatment fails to result in a pregnancy in 60% of attempts. On a scale of 1-7, how likely are you to try this treatment?'), ('Condition', 'Negative'), ('Frame', 'Fertility Treatment')]), OrderedDict([('Scenario_text', 'A new type of artificial knee surgery allows patients to walk completely pain-free in 85% of cases. On a scale of 1-7, how likely are you to choose this surgery?'), ('Condition', 'Positive'), ('Frame', 'Knee Surgery')]), OrderedDict([('Scenario_text', 'A new type of artificial knee surgery leaves patients with lasting pain in 15% of cases. On a scale of 1-7, how likely are you to choose this surgery?'), ('Condition', 'Negative'), ('Frame', 'Knee Surgery')]), OrderedDict([('Scenario_text', 'A daily medication effectively controls asthma, keeping breathing perfectly normal on 90% of days. On a scale of 1-7, how likely are you to use this medication?'), ('Condition', 'Positive'), ('Frame', 'Asthma Meds')]), OrderedDict([('Scenario_text', 'A daily medication fails to control asthma, resulting in breathing difficulties on 10% of days. On a scale of 1-7, how likely are you to use this medication?'), ('Condition', 'Negative'), ('Frame', 'Asthma Meds')]), OrderedDict([('Scenario_text', 'A new blood pressure pill is generally safe and leaves 95% of patients completely free from severe fatigue. On a scale of 1-7, how likely are you to take this pill?'), ('Condition', 'Positive'), ('Frame', 'Blood Pressure')]), OrderedDict([('Scenario_text', 'A new blood pressure pill causes severe, daily fatigue as a side effect in 5% of patients. On a scale of 1-7, how likely are you to take this pill?'), ('Condition', 'Negative'), ('Frame', 'Blood Pressure')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="framing_conditions.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="debrief"/>
+  </Flow>
+</PsychoPy2experiment>
